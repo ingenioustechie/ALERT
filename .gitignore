@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.py[co]
 *.sw[po]
 *.bak
@@ -12,3 +13,18 @@ venv/
 virtenv/
 dist/
 build/
+=======
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+.project
+\#*\#
+.\#*
+>>>>>>> d93a1c643230fa4d9887e18981d1706bc5f8e4f6
